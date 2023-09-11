@@ -1,0 +1,118 @@
+body {
+    background-color: white;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#form-container {
+    background-color: rgb(232, 204, 204);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+
+}
+
+h2 {
+    color: #0e6652;
+}
+
+fieldset {
+    border: none;
+    color: #000000;
+}
+
+legend {
+    font-size: 20px;
+    color: #1cbd8d;
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+    color:  #135743;
+}
+
+
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.error {
+    color: #f00;
+    font-size: 14px;
+}
+.buttons{
+    display: flex;
+    justify-content: space-around;
+}
+.rounded-button {
+    background-color: #1cbd8d;
+    color: #fff;
+    border: none;
+    display: flex;
+    /* justify-content: space-around; */
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-top: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.rounded-button:hover {
+    background-color: #00b398;
+}
+
+
+.password-input-container {
+    display: flex;
+    align-items: center;
+}
+
+.password-toggle {
+    padding: 5px;
+}
+
+
+.password-toggle input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+
+  /* Add a green text color when the requirements are right */
+  .valid {
+    color: green;
+  }
+
+  .valid:before {
+    position: relative;
+    left: -35px;
+
+  }
+
+  /* Add a red text color when the requirements are wrong */
+  .invalid {
+    color: red;
+  }
+
+  .invalid:before {
+    position: relative;
+    left: -35px;
+
+
+  }

@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+header {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:#0b5941 ;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 3rem;
+}
+
+
+.profile {
+    background-color: rgb(232, 204, 204);
+    /* background-color: white; */
+    margin: 20px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    box-shadow: 0 0 10px rgba(99, 51, 51, 0.415);
+    border-radius: 10px;
+}
+.user-info {
+    width: 100%;
+    height: auto;
+    white-space: nowrap;
+    display: flex;
+    flex-direction: column;
+  }
+
+.user-info h2 {
+    font-size: 1.8rem;
+    margin-bottom: 30px;
+    color: #46b188;
+}
+
+.user-info p {
+
+    flex: 20;
+    font-size: 1.4rem;
+    color: #2a5b48;
+    line-height: 1.8;
+    margin: 5px 0;
+}
+
+
+.order-history h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.order-history ul {
+    list-style: none;
+}
+
+.order-history li {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.order-history li strong {
+    font-weight: bold;
+}
+
+
+.account-settings h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.account-settings p {
+    font-size: 1.2rem;
+    color: #555;
+    line-height: 1.4;
+    margin: 5px 0;
+}
+
+
+footer {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    background-color: #0b5941;
+    color: #fff;
+    padding: 10px 0;
+}
